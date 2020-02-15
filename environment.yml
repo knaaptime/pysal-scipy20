@@ -26,6 +26,8 @@ dependencies:
   - esda
   - watermark
   - rasterio
+  - descartes
+  - folium
   - cenpy
   - pip:
     - contextily
