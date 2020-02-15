@@ -1,4 +1,4 @@
-# Spatial Data Analysis with PySAL @SciPy20
+# Spatial Data Science with PySAL @SciPy20
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal-scipy20/master)
 
@@ -22,9 +22,9 @@ This repository contains the materials and instructions for the PySAL workshop a
   + Local spatial autocorrelation
     - Break
 
-* Neighborhoods as a Focus of Spatial Analysis
+* Applied Spatial Analysis: Neighborhoods
 
-  + Clustering/geodemographic Analysis
+  + Clustering/Geodemographic Analysis
   + Segregation Analysis
 
 ## Obtaining Workshop Materials
@@ -60,28 +60,20 @@ Start a terminal and navigate to the directory of the downloaded/ cloned materia
 Once we have done that, run:
 
 ``` bash
-conda-env create -f workshop.yml
+conda env create -f environment.yml
 ```
 
-This will build a conda python 3.6 environment that sandboxes the installation of the required packages for this workshop so we don't break anything in your computer's system Python (if it has one).
+This will build a conda python 3.7 environment that sandboxes the installation of the required packages for this workshop so we don't break anything in your computer's system Python (if it has one).
 
 This may take 10-15 minutes to complete depending on the speed of your network connection.
 
 Once this completes, you can activate the workshop environment with:
 
-* on Mac, Linux
 
 ``` bash
-source activate workshop
+conda activate pysal-workshop
 ```
 
-* on Windows:
-
-``` bash
-activate workshop
-```
-
-Next, you will want to test your installation with:
 
 ``` bash
  jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
