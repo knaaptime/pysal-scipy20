@@ -1,0 +1,30 @@
+# Run `conda-env create -f workshop.yml`
+name: pysal-workshop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python =3.7
+  - bokeh
+  - pip
+  - geopandas
+  - ipython
+  - ipywidgets
+  - jupyterlab
+  - pysal
+  - nbconvert
+  - networkx
+  - palettable
+  - scikit-learn
+  - seaborn
+  - statsmodels
+  - segregation
+  - hvplot
+  - holoviews
+  - geoviews
+  - libpysal
+  - mapclassify
+  - esda
+  - watermark
+  - pip:
+    - contextily
