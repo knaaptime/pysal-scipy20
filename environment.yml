@@ -1,4 +1,3 @@
-# Run `conda-env create -f workshop.yml`
 name: pysal-workshop
 channels:
   - conda-forge
@@ -26,5 +25,7 @@ dependencies:
   - mapclassify
   - esda
   - watermark
+  - rasterio
+  - cenpy
   - pip:
     - contextily
