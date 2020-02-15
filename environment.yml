@@ -8,6 +8,7 @@ dependencies:
   - pip
   - geopandas
   - descartes
+  - folium
   - ipython
   - ipywidgets
   - jupyterlab
