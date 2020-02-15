@@ -1,11 +1,11 @@
 # Spatial Data Analysis with PySAL @SciPy20
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/sjsrey/pysalfoss4g19/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal-scipy20/master)
 
 ### Instructors
 
-- [Sergio Rey](http://sergerey.org) - University of California, Riverside
-- [Elijah Knaap](http://spatial.ucr.edu/peopleKaap.html) - University of California, Riverside
+* [Sergio Rey](http://sergerey.org) - University of California, Riverside
+* [Elijah Knaap](https:/knaaptime.com) - University of California, Riverside
 
 ---
 
@@ -13,30 +13,29 @@ This repository contains the materials and instructions for the PySAL workshop a
 
 ## Schedule (Proposed)
 
-- 2:00-3:30
-  - PySAL Overview
-  - Spatial data processing
-  - Choropleth mapping and geovisualization
-  - Spatial weights
-  - Global spatial autocorrelation
-  - Local spatial autocorrelation
+* 2:00-3:30
+  + PySAL Overview
+  + Spatial data processing
+  + Choropleth mapping and geovisualization
+  + Spatial weights
+  + Global spatial autocorrelation
+  + Local spatial autocorrelation
     - Break
-- Neighborhoods as a Focus of Spatial Analysis
 
-  - clustering/geodemographics (scikit with w-constraint)
-    - (weights in an applied context)
-  - Spatial dynamics (neighborhood transitions) (giddy)
-  - segregation?
+* Neighborhoods as a Focus of Spatial Analysis
+
+  + Clustering/geodemographic Analysis
+  + Segregation Analysis
 
 ## Obtaining Workshop Materials
 
 If you are familiar with GitHub, you should clone or fork this GitHub repository to a specific directory. Cloning can be done by:
 
-```bash
-git clone https://github.com/sjsrey/pysalfoss4g19.git
+``` bash
+git clone https://github.com/knaaptime/pysal-scipy20.git
 ```
 
-If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/sjsrey/pysalfoss4g19.git) and clicking on the green _Clone or download_ button in the upper right.
+If you are not using git, you can grab the workshop materials as a zip file by pointing your browser to (https://github.com/knaaptime/pysal-scipy20.git) and clicking on the green _Clone or download_ button in the upper right.
 
 ![download](figs/readmefigs/download.png)
 
@@ -54,13 +53,13 @@ On windows, all our work will begin from an anaconda prompt, which you can start
 
 ![anacondaprompt](figs/readmefigs/anacondastartwin.png)
 
-Start a terminal and navigate to the directory of the downloaded/ cloned materials. For example, if the materials now live in the directory `/Users/knaaptime/Downloads/pysal-scipy20`, you need to navigate to that directory from the terminal (using command `cd`):
+Start a terminal and navigate to the directory of the downloaded/ cloned materials. For example, if the materials now live in the directory `/Users/knaaptime/Downloads/pysal-scipy20` , you need to navigate to that directory from the terminal (using command `cd` ):
 
 ![directory](figs/readmefigs/directory.png)
 
 Once we have done that, run:
 
-```bash
+``` bash
 conda-env create -f workshop.yml
 ```
 
@@ -70,27 +69,27 @@ This may take 10-15 minutes to complete depending on the speed of your network c
 
 Once this completes, you can activate the workshop environment with:
 
-- on Mac, Linux
+* on Mac, Linux
 
-```bash
+``` bash
 source activate workshop
 ```
 
-- on Windows:
+* on Windows:
 
-```bash
+``` bash
 activate workshop
 ```
 
 Next, you will want to test your installation with:
 
-```bash
+``` bash
  jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
 ```
 
 You should see something like:
 
-```bash
+``` bash
 [NbConvertApp] Converting notebook check_workshop.ipynb to html
 [NbConvertApp] Executing notebook with kernel: python3
 [NbConvertApp] Writing 347535 bytes to check_workshop.html
@@ -110,12 +109,13 @@ If you do see the above, you are ready for the tutorial. If not, please contact 
 
 If you encounter the following error when starting jupyterlab:
 
-```bash
+``` bash
 FileNotFoundError: [WinError 2] The system cannot find the file specified
 ```
 
 A solution is to issue the following command in the anaconda prompt:
 
-```bash
+``` bash
  python -m ipykernel install --user
 ```
+
