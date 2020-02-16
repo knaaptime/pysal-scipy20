@@ -51,7 +51,7 @@ Introduction to the spatial weights matrix for formally encoding geographic rela
 
 #### Global & Local spatial autocorrelation
 
-Exploratory spatial data analysis and overview of measures of spatial autocorrelation statistics such as Moran's *I* and the join-count statistic.
+Exploratory spatial data analysis and overview of measures of spatial autocorrelation such as Moran's *I* and the join-count statistic.
 
 ### Applied Spatial Analysis of Neighborhoods
 
