@@ -9,23 +9,59 @@
 
 ---
 
+## Short Description
+
 This repository contains the materials and instructions for the PySAL workshop at [SciPy 2020](https://www.scipy2020.scipy.org/).
 
-## Schedule (Proposed)
+Proposed Schedule:
 
-* 2:00-3:30
+* Fundamentals of Spatial Analysis
   + PySAL Overview
   + Spatial data processing
   + Choropleth mapping and geovisualization
   + Spatial weights
-  + Global spatial autocorrelation
-  + Local spatial autocorrelation
+  + Global & Local spatial autocorrelation
     - Break
 
 * Applied Spatial Analysis: Neighborhoods
 
   + Clustering/Geodemographic Analysis
   + Segregation Analysis
+
+
+## Long Description
+
+### Fundamentals of Spatial Analysis
+
+#### PySAL Overview
+
+Brief introduction to the PySAL ecosystem of packages for spatial data science
+
+#### Spatial data processing
+
+Reading and writing GIS file formats, spatial data wrangling, changing coordinate transformation systems.
+
+#### Choropleth mapping and geovisualization
+
+Introduction to choropleth map classification using `mapclassify`. Basic visualization with GeoPandas, and matplotlib as well as interactive visualization via folium, leaflet and geoviews/hvplot,
+
+#### Spatial weights
+
+Introduction to the spatial weights matrix for formally encoding geographic relationships.
+
+#### Global & Local spatial autocorrelation
+
+Exploratory spatial data analysis and overview of measures of spatial autocorrelation statistics such as Moran's *I* and the join-count statistic.
+
+### Applied Spatial Analysis of Neighborhoods
+
+#### Clustering/Geodemographic Analysis
+
+Introduction to classic and spatially-constrained geodemographics (regionalization). This module provides an overview of integrating `scikit-learn` and `pysal` to develop socio-demographic cluster models that optionally include a spatial constraint.
+
+#### Segregation Analysis
+
+Applied segregation analysis including the calculation of classic, multigroup, and spatial indices. This module also includes analysis of spatial segregation dynamics, comparative inference, and index decomposition
 
 ## Obtaining Workshop Materials
 
