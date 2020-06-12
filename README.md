@@ -5,7 +5,7 @@
 ### Instructors
 
 * [Sergio Rey](http://sergerey.org) - University of California, Riverside
-* [Elijah Knaap](https:/knaaptime.com) - University of California, Riverside
+* [Eli Knaap](https:/knaaptime.com) - University of California, Riverside
 
 ---
 
