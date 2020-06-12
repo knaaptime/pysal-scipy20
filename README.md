@@ -65,6 +65,10 @@ Applied segregation analysis including the calculation of classic, multigroup, a
 
 ## Obtaining Workshop Materials
 
+**To get started immediately without installing or downloading anything, click the *"Launch Binder"* button at the top of this page**
+
+
+---
 If you are familiar with GitHub, you should clone or fork this GitHub repository to a specific directory. Cloning can be done by:
 
 ``` bash
@@ -110,28 +114,7 @@ Once this completes, you can activate the workshop environment with:
 conda activate pysal-workshop
 ```
 
-
-``` bash
- jupyter-nbconvert --execute --ExecutePreprocessor.timeout=120 check_workshop.ipynb
-```
-
-You should see something like:
-
-``` bash
-[NbConvertApp] Converting notebook check_workshop.ipynb to html
-[NbConvertApp] Executing notebook with kernel: python3
-[NbConvertApp] Writing 347535 bytes to check_workshop.html
-```
-
-Open check_workshop.html in a browser, and scroll all the way down, you should see something like:
-
-![htmlout](figs/readmefigs/htmlout.png)
-
-You should also see a new file in the current directory called `inc.png` that contains a map looking something line:
-
-![incmap](figs/readmefigs/inc.png)
-
-If you do see the above, you are ready for the tutorial. If not, please contact either of us for help.
+You're now all setup for the tutorial!
 
 ## Troubleshooting
 
