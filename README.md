@@ -1,6 +1,6 @@
 # Spatial Data Science with PySAL @SciPy20
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal-scipy20/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/knaaptime/pysal-scipy20/master?urlpath=lab)
 
 ### Instructors
 
