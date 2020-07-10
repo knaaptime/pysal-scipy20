@@ -31,5 +31,6 @@ dependencies:
   - descartes
   - folium
   - cenpy
+  - splot
   - pip:
     - contextily
